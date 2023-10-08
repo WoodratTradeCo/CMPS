@@ -30,8 +30,8 @@ parser.add_argument('--exp', type=str, default="CMPS", help='result_save_dic')
 
 # TODO
 
-parser.add_argument('--train_sketch_dir', type=str, default="D:/ZJU/quickdraw-414k/coordinate_files/train", help='coordinate_train_dir')
-parser.add_argument('--val_sketch_dir', type=str, default="D:/ZJU/quickdraw-414k/coordinate_files/val", help='coordinate_val_dir')
+parser.add_argument('--train_sketch_dir', type=str, default="./coordinate_files/train", help='coordinate_train_dir')
+parser.add_argument('--val_sketch_dir', type=str, default="./coordinate_files/val", help='coordinate_val_dir')
 parser.add_argument('--train_sketch_list', type=str, default="./coordinate_files/tiny_train_set.txt",
                     help='train_sketch_list')
 parser.add_argument('--val_sketch_list', type=str, default="./coordinate_files/tiny_val_set.txt",
