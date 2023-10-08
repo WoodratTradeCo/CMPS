@@ -2,10 +2,10 @@
 
 This paper has been submitted to Expert Systems with Applications (ESWA).
 <div align=center>
-<img width="620" alt="1696749034040" src="https://github.com/WoodratTradeCo/CMPS/assets/38500652/aeb21671-edd6-489f-8571-43c029958842">
+<img width="600" alt="1696749034040" src="https://github.com/WoodratTradeCo/CMPS/assets/38500652/aeb21671-edd6-489f-8571-43c029958842">
 </div>
 <div align=center>
-<img width="860" alt="1696749476699" src="https://github.com/WoodratTradeCo/CMPS/assets/38500652/31b94d91-4b28-46d6-ac58-68b6fe5605de">
+<img width="700" alt="1696749476699" src="https://github.com/WoodratTradeCo/CMPS/assets/38500652/31b94d91-4b28-46d6-ac58-68b6fe5605de">
 </div>
 
 ## Datasets
