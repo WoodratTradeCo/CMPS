@@ -1,5 +1,4 @@
-# CMPS
-Cross-Modal Pixel-and-Stroke Representation Aligning Networks for Free-Hand Sketch Recognition
+# Cross-Modal Pixel-and-Stroke Representation Aligning Networks for Free-Hand Sketch Recognition (CMPS)
 
 This paper has been submitted to Expert Systems with Applications (ESWA).
 <div align=center>
