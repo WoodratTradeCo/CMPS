@@ -72,13 +72,13 @@ class Multi_Head_Attention(nn.Module):
         V = V.view(batch_size * self.num_head, -1, self.dim_head)
         # if mask:  # TODO
         #     mask = mask.repeat(self.num_head, 1, 1)  # TODO change this
-        scale = K.size(-1) ** -0.5  # 缩放因子
+        scale = K.size(-1) ** -0.5  # 
         context = self.attention(Q, K, V, scale)
 
         context = context.view(batch_size, -1, self.dim_head * self.num_head)
         out = self.fc(context)
         out = self.dropout(out)
-        out = out + x  # 残差连接
+        out = out + x  # residual connect
         # out = self.layer_norm(out)
         out = self.batch_norm(out.permute(0, 2, 1))
         out = out.permute(0, 2, 1)
