@@ -11,6 +11,7 @@ This paper has been submitted to Expert Systems with Applications (ESWA).
 ## Datasets
 The code is based on Google QuickDraw-414K and TU-Berlin datasets. Thanks for the contributor, the source of QuickDraw-414K is from https://github.com/PengBoXiangShang/multigraph_transformer.
 ## Usage (How to Train Our CMPS)
+The training log can be checked in experiment/log/CMPS_sota.log.
 
     # 1. Choose your workspace and download our repository.
     cd ${CUSTOMIZED_WORKSPACE}
