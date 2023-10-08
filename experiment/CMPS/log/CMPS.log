@@ -1,0 +1,77 @@
+2023-10-08 10:32:50,035 -train.py:203 - INFO - training status: 
+2023-10-08 10:32:50,036 -train.py:204 - INFO - Begin Evaluating before training
+2023-10-08 10:32:50,036 -train.py:205 - INFO - optimizer: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0004
+    lr: 0.0004
+    maximize: False
+    weight_decay: 0.0003
+) epoch: 40
+2023-10-08 10:43:18,766 -train.py:204 - INFO - training status: 
+2023-10-08 10:43:18,766 -train.py:205 - INFO - Begin Evaluating before training
+2023-10-08 10:43:18,766 -train.py:206 - INFO - optimizer: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0004
+    lr: 0.0004
+    maximize: False
+    weight_decay: 0.0003
+) epoch: 40
+2023-10-08 10:43:18,769 -train.py:136 - INFO - set learning rate to: 0.0004
+2023-10-08 10:45:40,345 -train.py:204 - INFO - training status: 
+2023-10-08 10:45:40,346 -train.py:205 - INFO - Begin Evaluating before training
+2023-10-08 10:45:40,346 -train.py:206 - INFO - optimizer: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0004
+    lr: 0.0004
+    maximize: False
+    weight_decay: 0.0003
+) epoch: 40
+2023-10-08 10:46:18,856 -train.py:204 - INFO - training status: 
+2023-10-08 10:46:18,857 -train.py:205 - INFO - Begin Evaluating before training
+2023-10-08 10:46:18,857 -train.py:206 - INFO - optimizer: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0004
+    lr: 0.0004
+    maximize: False
+    weight_decay: 0.0003
+) epoch: 40
+2023-10-08 10:46:18,858 -train.py:136 - INFO - set learning rate to: 0.0004
+2023-10-08 10:47:00,397 -train.py:204 - INFO - training status: 
+2023-10-08 10:47:00,397 -train.py:205 - INFO - Begin Evaluating before training
+2023-10-08 10:47:00,397 -train.py:206 - INFO - optimizer: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0004
+    lr: 0.0004
+    maximize: False
+    weight_decay: 0.0003
+) epoch: 40
+2023-10-08 10:47:00,398 -train.py:136 - INFO - set learning rate to: 0.0004
+2023-10-08 10:48:04,325 -train.py:156 - INFO - ==> Iteration [1][100/10782]:
+2023-10-08 10:48:04,325 -train.py:158 - INFO - current batch loss: 22.077571868896484
+2023-10-08 10:48:04,325 -train.py:160 - INFO - average loss: 24.668060092926027
+2023-10-08 10:48:04,325 -train.py:162 - INFO - average acc: 4.0625
