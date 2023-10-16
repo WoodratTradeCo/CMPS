@@ -212,7 +212,7 @@ class CMPS(nn.Module):
         multimodal_stroke = stroke_img[:, :100]
         multimodal_img = stroke_img[:, 100:]
         stroke_att = self.softmax(self.avgpool(multimodal_stroke))
-        output_s = stroke_att * dse_identity + dse_identity
+        output_s = stroke_att * stroke_embed + stroke_embed
         output_s = self.stroke_mlp_head(output_s.mean(dim=1))
 
         multimodal_img = multimodal_img.permute(0, 2, 1)
