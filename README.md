@@ -22,7 +22,7 @@ The training log can be checked in experiment/log/CMPS_sota.log.
     conda-env create --name ${CUSTOMIZED_ENVIRONMENT_NAME}
     conda activate ${CUSTOMIZED_ENVIRONMENT_NAME}
     # 4. Download training/evaluation/testing dataset.
-    # 5. Train our MGT. Please see details in our code annotations.
+    # 5. Train our CMPS. Please see details in our code annotations.
     # Please set the input arguments based on your case.
     # When the program starts running, a folder named 'experiment/${CUSTOMIZED_EXPERIMENT_NAME}' will be created automatically to save your log, checkpoint.
     python train.py 
