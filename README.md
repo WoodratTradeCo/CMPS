@@ -15,7 +15,7 @@ The training log can be checked in experiment/log/CMPS_sota.log.
 
     # 1. Choose your workspace and download our repository.
     cd ${CUSTOMIZED_WORKSPACE}
-    git clone https://github.com/PengBoXiangShang/multigraph_transformer
+    git clone https://github.com/WoodratTradeCo/CMPS
     # 2. Enter the directory.
     cd cmps
     # 3. Clone our environment, and activate it.
