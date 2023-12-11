@@ -1,6 +1,5 @@
 # Cross-Modal Pixel-and-Stroke Representation Aligning Networks for Free-Hand Sketch Recognition (CMPS)
 
-This paper has been submitted to Expert Systems with Applications (ESWA).
 <div align=center>
 <img width="600" alt="1696749034040" src="https://github.com/WoodratTradeCo/CMPS/assets/38500652/aeb21671-edd6-489f-8571-43c029958842">
 </div>
@@ -31,3 +30,13 @@ The training log can be checked in experiment/log/CMPS_sota.log.
     --batch_size ${CUSTOMIZED_SIZE}   
     --num_workers ${CUSTOMIZED_NUMBER} 
     --gpu ${CUSTOMIZED_GPU_NUMBER}
+If you find this code useful to your research, please cite our paper as the following bibtex:
+
+    @article{zhou2023cross,
+      title={Cross-Modal Pixel-and-Stroke Representation Aligning Networks for Free-Hand Sketch Recognition},
+      author={Zhou, Yang and Wang, Jin and Yang, Jingru and Ni, Ping and Lu, Guodong and Fang, Heming and Li, Zhihui and Yu, Huan and Huang, Kaixiang},
+      journal={Expert Systems with Applications},
+      pages={122505},
+      year={2023},
+      publisher={Elsevier}
+    }
